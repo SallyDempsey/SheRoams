@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SheRoams - Travel Tour Company for Women</title>
+	<link rel="stylesheet" href="./Styles.css">
+    <script src="./main.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+           <div class="logo"> <a href="#"><img src="./resources/images/logo.JPG" alt="SheRoams Logo"></a> </div>
+            <ul>
+                <li><a href="./Index.html">Home</a></li>
+                <li><a href="./Index.html#destinations">Destinations</a></li>
+                <li><a href="./Index.html#activities">Activities</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="header">
+        <div>
+		<h1>Contact Us</h1>
+		<p>Looking to give feedback on your order, or ask a question about our app? You'll find everything you need here.</p>
+	    </div>
+	</section>
+
+    <form id="formid" class="visable">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea><br><br>
+        
+        <button id="submitbutton" type="button" >Submit</button>
+      </form>
+
+      <div id="submitmessage" class="hidden submitmessage">
+        <h3>Thank you for contacting us</h3>
+      </div>
+
+      <footer>
+		<p>&copy; 2023 SheRoams - Travel Tour Company for Women. All rights reserved.</p>
+	</footer>
+
+</body>
+</html>
+    
